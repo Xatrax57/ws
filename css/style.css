@@ -1,0 +1,25 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: gainsboro;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+}
+
+textarea {
+    height: 30vh;
+    width: 50vw;
+    font-size: 3vh;
+}
+
+input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 3vh;
+    font-size: 2vh;
+}
